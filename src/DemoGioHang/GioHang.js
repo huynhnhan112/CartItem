@@ -49,10 +49,10 @@ class GioHang extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 {/* Modal */}
                 <div className="modal fade" id="modelId" tabIndex={-1} role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-                    <div className="modal-dialog modal-lg" role="document">
+                    <div className="modal-dialog modal-xl" role="document">
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h5 className="modal-title">Giỏ hàng</h5>
@@ -86,6 +86,7 @@ class GioHang extends Component {
                     </div>
                 </div>
             </div>
+
         )
     }
 }

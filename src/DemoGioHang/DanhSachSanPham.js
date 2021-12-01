@@ -6,7 +6,7 @@ export default class DanhSachSanPham extends Component {
     renderSanPham = () => {
         let {xemChiTiet} = this.props;
         return this.props.mangSanPham.map((sanPham, index)=>{
-            return <div className="col-4" key={index}>
+            return <div className="col-md-6 col-lg-4" key={index}>
                 <SanPham sanPham={sanPham} xemChiTiet={xemChiTiet} />
             </div>
         })

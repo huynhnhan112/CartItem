@@ -44,9 +44,9 @@ class DemoGioHang extends Component {
                 <div className="row mt-5">
                     <div className="col-4">
                         <h3 className="text-center">{sanPham.tenSP}</h3>
-                        <img src={sanPham.hinhAnh} alt={sanPham.hinhAnh} height={300} width={350} />
+                        <img src={sanPham.hinhAnh} alt={sanPham.hinhAnh} height={300}className="w-100" />
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 text-center">
                         <h3>Thông số kỹ thuật</h3>
                         <table className="table table-hover">
                             <tbody>
